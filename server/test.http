@@ -1,0 +1,8 @@
+@baseurl=http://localhost:3000/admin/api
+
+###
+GET {{baseurl}}/categories/list
+
+###
+
+GET http://www.baidu.com
