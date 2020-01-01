@@ -13,5 +13,11 @@ module.exports = app => {
 
     res.send(items);
   });
+
+  router.get("/categories/byId", async (req, res) => {
+    console.log(req);
+
+    res.send("get");
+  });
   app.use("/admin/api", router);
 };
