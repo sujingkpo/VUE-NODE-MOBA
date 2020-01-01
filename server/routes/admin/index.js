@@ -17,7 +17,7 @@ module.exports = app => {
   router.get("/categories/byId", async (req, res) => {
     console.log(req);
 
-    res.send("get");
+    res.send("get11");
   });
   app.use("/admin/api", router);
 };
